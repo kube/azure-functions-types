@@ -17,7 +17,7 @@ export type FunctionRequest = {
   query: { [key: string]: string }
   headers: { [name: string]: string }
   body: any
-  rawbody: any
+  rawBody: any
 }
 
 export type FunctionResponse = {
